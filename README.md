@@ -1,7 +1,7 @@
 # Folding-Proteins
 This repo contains a batch preparation pipeline to fetch sequences/structures for PDB IDs listed in FSR.xlsx, generate DSSP, align FASTA to DSSP numbering, and prepare inputs for PSIPRED and JPred. Outputs are archived for reproducibility.
 
-Workflow (TL;DR)
+# Workflow
 
 PDB FASTA download
 
@@ -44,10 +44,9 @@ Per‑sequence FASTAs are in jpred_batch_MSEclean_compact_fastas.zip; the ID ↔
 Note: JPred results will be added to the repo as they become available.
 
 Context / references
+Inaccurate secondary structure predictions often indicate protein fold switching  (pnas.1800168115.sapp.pdf)
 
-crystals-14-00652.pdf: background paper (example reference).
-
-Files & What They Are
+# Files & What They Are
 
 FSR.xlsx → List of PDB identifiers (and chains) to be processed. Source: supplementary material of Inaccurate secondary structure predictions often indicate protein fold switching (pnas.1800168115.sapp.pdf).
 
