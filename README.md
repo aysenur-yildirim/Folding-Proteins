@@ -1,4 +1,4 @@
-# Folding-Proteins
+# Fold-Switching Proteins
 This repo contains a batch preparation pipeline to fetch sequences/structures for PDB IDs listed in FSR.xlsx, generate DSSP, align FASTA to DSSP numbering, and prepare inputs for PSIPRED and JPred. Outputs are archived for reproducibility.
 
 # Workflow
